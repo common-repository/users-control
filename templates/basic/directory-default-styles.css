@@ -1,0 +1,506 @@
+
+.uu-direct-name{
+    margin: 10px 0px 10px 0px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.uu_custom_meta{
+
+    margin: 10px 0px 10px 0px;
+    font-weight: 400;
+}
+
+.userscontrol-view-profile-bar{
+    margin: 15px 0px 10px 0px;
+}
+
+.userscontrol-prof-social-icon{
+
+
+}
+
+.userscontrol-prof-social-icon {
+    position: relative;
+
+}
+
+.userscontrol-prof-social-icon a{
+    border: solid 1px #d7d7d7;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 0px 0px 0px 10px;
+    padding: 5px 5px 5px 5px;
+    color: #4c4c4c;
+    font-size: 18px;
+}
+
+/* ------------------------------------------------------------------------- *
+
+ *  USER CARD - 
+
+/* ------------------------------------------------------------------------- */
+
+.userscontrol-front-directorycard-wrap{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin: 5px auto 5px auto;
+}
+
+.userscontrol-front-directorycard-wrap ul{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 10px;   
+    margin: 0px;
+}
+
+.userscontrol-front-directorycard-wrap ul li{
+   
+    display: inline-block;
+    vertical-align: top;
+    border: solid 1px #e8e8e8;
+    padding: 0px 0px 15px 0px;
+    margin: 10px 0px 10px 5px;
+    border-radius: 8px;
+    min-height: 220px;
+    border-top: none;
+    background-color: white;
+}
+
+.userscontrol-front-directorycard-wrap ul li.uc-1{
+    width: 100%;
+}
+
+.userscontrol-front-directorycard-wrap ul li.uc-2{
+    width: 48%;
+}
+
+.userscontrol-front-directorycard-wrap ul li.uc-3{
+    width: 32%;
+}
+
+.userscontrol-front-directorycard-wrap ul li.uc-4{
+    width: 24%;   
+}
+
+.userscontrol-front-directorycard-wrap .avatar{
+    border-radius: 50%;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.userscontrol-front-directorycard-wrap .userscontrol-prof-photo{
+    margin-top: -80px;
+    position: relative;
+
+}
+
+.userscontrol-front-directorycard-wrap .userscontrol-prof-cover{
+
+    min-height: 120px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: #a2deec91;
+
+}
+
+.userscontrol-front-directorycard-wrap .uu-front-list-cv-img img{
+   
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;  
+}
+
+.userscontrol-front-directorycard-wrap .country_name {  
+    min-height: 30px;
+    margin: 10px 0px 10px 0px;
+}
+
+.userscontrol-front-directorycard-wrap .country_name img{   
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+/* ------------------------------------------------------------------------- *
+
+ *  TEMPLATE - 2
+
+/* ------------------------------------------------------------------------- */
+
+.userscontrol-front-directory2-wrap{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin: 5px auto 5px auto;
+}
+
+.userscontrol-front-directory2-wrap ul{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 10px;   
+    margin: 0px;
+}
+
+.userscontrol-front-directory2-wrap ul li{
+   
+    display: inline-block;
+    vertical-align: top;
+    border: solid 1px #e8e8e8;
+    padding: 0px 0px 15px 0px;
+    margin: 10px 0px 10px 5px;
+    border-radius: 8px;
+    min-height: 220px;
+    border-top: none;
+    background-color: white;
+}
+
+.userscontrol-front-directory2-wrap ul li.uc-1{
+    width: 100%;
+}
+
+.userscontrol-front-directory2-wrap ul li.uc-2{
+    width: 48%;
+}
+
+.userscontrol-front-directory2-wrap ul li.uc-3{
+    width: 32%;
+}
+
+.userscontrol-front-directory2-wrap ul li.uc-4{
+    width: 24%;   
+}
+
+.userscontrol-front-directory2-wrap .avatar{
+    border-radius: 50%;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.userscontrol-front-directory2-wrap .userscontrol-prof-photo{
+    margin-top: -80px;
+    position: relative;
+
+}
+
+.userscontrol-front-directory2-wrap .userscontrol-prof-cover{
+
+    min-height: 120px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: #b8e9f6e8;
+
+}
+
+.userscontrol-front-directory2-wrap .uu-front-list-cv-img img{
+   
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;  
+}
+
+.userscontrol-front-directory2-wrap .country_name {  
+    min-height: 30px;
+    margin: 10px 0px 10px 0px;
+}
+
+.userscontrol-front-directory2-wrap .country_name img{   
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------- *
+
+ *  DEFAULT DIRECTORY
+
+/* ------------------------------------------------------------------------- */
+.userscontrol-front-directory-wrap{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin: 5px auto 5px auto;
+}
+
+.userscontrol-front-directory-wrap .country_name {
+    min-height: 30px;
+    margin: 10px 0px 10px 0px;
+}
+
+.userscontrol-front-directory-wrap .country_name img{
+   
+    display: inline-block;
+    vertical-align: middle;
+   
+
+}
+
+.userscontrol-front-directory-wrap ul{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 10px;   
+    margin: 0px;
+}
+
+.userscontrol-front-directory-wrap ul li{
+   
+    display: inline-block;
+    vertical-align: top;
+    border: solid 1px #e8e8e8;
+    padding: 15px 2px 10px 10px;
+    margin: 10px 0px 10px 5px;
+    border-radius: 5px;
+    min-height: 220px;  
+    background-color: white;
+}
+
+.userscontrol-front-directory-wrap ul li.uc-1{
+    width: 100%;
+}
+
+.userscontrol-front-directory-wrap ul li.uc-2{
+    width: 48%;
+}
+
+.userscontrol-front-directory-wrap ul li.uc-3{
+    width: 32%;
+}
+
+.userscontrol-front-directory-wrap ul li.uc-4{
+    width: 24%;   
+}
+
+
+
+.userscontrol-front-directory-wrap .avatar{
+    border-radius: 50%;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.userscontrol-search-results{
+    position: relative;
+}
+
+.userscontrol-search-results h1{
+    font-size: 1.5rem;    
+}
+
+
+
+
+/**/
+
+/* ------------------------------------------------------------------------- *
+
+ *  Responsive Style
+
+/* ------------------------------------------------------------------------- */
+
+/************************************************************************************
+
+MEDIA QUERIES
+
+*************************************************************************************/
+
+
+
+/* Large screens */
+
+@media only screen and (min-width : 1680px) {
+
+
+
+}
+
+/* Tablet Landscape */
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+
+
+}
+
+
+
+
+
+
+
+/* for 980px or less */
+
+@media screen and (max-width: 1000px) {
+	
+
+}
+
+
+/* Smaller than 960px */
+
+/*@media only screen and (max-width: 959px) {
+
+}*/
+
+
+
+/* MAX 800px */
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+    .userscontrol-front-directory-wrap .avatar{
+        min-width: 150px;
+        max-width: 150px;
+    }
+
+    .userscontrol-front-directory-wrap ul li{
+        width: 33% !important;
+    }
+
+    .userscontrol-front-directory2-wrap .avatar{
+        min-width: 150px;
+        max-width: 150px;
+    }
+
+    .userscontrol-front-directory2-wrap ul li{
+        width: 33% !important;
+    }
+
+    .userscontrol-front-directorycard-wrap .avatar{
+        min-width: 150px;
+        max-width: 150px;
+    }
+
+    .userscontrol-front-directorycard-wrap ul li{
+        width: 33% !important;
+    }
+	
+
+    
+		
+	
+}
+
+
+
+/* for 750px or less */
+
+@media only screen and (max-width: 750px) {
+
+    .userscontrol-front-directory-wrap ul li{
+        width: 48% !important;
+    }
+
+    .userscontrol-front-directory2-wrap ul li{
+        width: 48% !important;
+    }
+
+    .userscontrol-front-directorycard-wrap ul li{
+        width: 48% !important;
+    }
+
+    
+	
+
+}
+
+@media only screen and (max-width: 620px) {
+	
+	
+
+
+}
+
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
+
+@media only screen and (max-width: 580px) {
+
+    .userscontrol-front-directory-wrap ul li{
+        width: 100% !important;
+    }
+
+    .userscontrol-front-directory2-wrap ul li{
+        width: 100% !important;
+    }
+
+    .userscontrol-front-directorycard-wrap ul li{
+        width: 100% !important;
+    }
+
+    
+	
+
+
+}
+
+
+@media only screen and (max-width: 460px) {
+	
+	
+
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	
+
+
+
+}
+
+
+
+/* MAX 1440px */
+@media only screen and (max-width: 1440px){
+
+
+
+
+}
+
+
+
+
+
+/* MAX 1024px */
+
+
+
+@media only screen and (max-width: 1024px){
+
+
+
+}
+
+
+/* MAX 360px */
+
+
+
+@media only screen and (max-width: 320px){
+
+
+		
+
+}
+

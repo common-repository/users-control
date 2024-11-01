@@ -1,0 +1,1408 @@
+/*Admin - Main*/
+
+.userscontrol-icons{}
+.userscontrol-icons i{
+    font-size: 18px;
+}
+
+.userscontrol-icons{
+    border: solid 1px #cacaca;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+#userscontrol-add-new-custom-field-frm   { display:none }
+
+#loading-animation{ display:none}
+
+.userscontrol-admin{
+    background: white;
+    padding: 10px;
+    min-height: 75px;
+}
+.userscontrol-admin .nav-tab.userscontrol-pro-tab-bubble { 
+    background-color: #E55237;
+    color:white; border:solid 1px #df4a2f  
+
+}
+
+.userscontrol-admin .nav-tab.userscontrol-pro-tab-bubble:hover { 
+    background-color: #E55237;
+    color:white;  border:solid 1px #df4a2f 
+
+}
+
+.userscontrol-go-pro-topbutton {
+    right: 15px;
+    position: absolute;
+
+}
+
+.userscontrol-btn-add{
+    font-size: 1.3rem !important;
+    color: #535353 !important;
+    border: solid 1px #bbb !important;
+    vertical-align:top !important
+
+}
+
+.userscontrol-btn-red-pro{ background: #F00 !important;  color:#FFF !important; font-size:18px; font-weight: bold}
+
+.userscontrol-tickets-module-filters {
+	
+	width:99%;
+	position:relative;	
+	padding:5px;
+	margin:10px 0px 10px 0px;
+	vertical-align:top;
+	text-align:center;
+		border:1px solid #e5e5e5;
+	    
+}
+
+.userscontrol-tickets-module-filters  input[type="text"],  .userscontrol-tickets-module-filters select{	
+	
+	height:33px;
+	margin:0 5px 0 5px;
+	padding:0px;
+	width:auto;
+    min-width: 100px;
+
+}
+	
+/*Order Details*/
+
+.userscontrol-subscriptiondetail-header-details {
+	margin:10px 0px 5px 0px;
+	padding:5px; 
+	position:relative;
+	border:1px solid #DBDBDB;
+	background:#fcfcfc 
+}
+
+.userscontrol-subscriptiondetail-status {
+	margin:10px 0px 5px 0px;
+	padding:5px; 
+	position:relative;
+	border:1px solid #DBDBDB;
+	background:#fcfcfc 
+}
+
+span.userscontrol-sub-tasks{
+	position:absolute;
+	right:0px;
+	top:10px;
+	
+}
+
+/*gree*/
+div.userscontrol-message-green{overflow:hidden;position:relative; 
+   
+    border-left-color: #46b450!important;
+   
+
+}
+div.userscontrol-message-green p{max-width:700px}
+
+.userscontrol-message-green a.button-primary,p.userscontrol-actions a.button-primary{background:#E55237;border-color:#E55237;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #E55237;box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #E55237;color:#fff;text-shadow:0 -1px 1px #E55237,1px 0 1px #A36597,0 1px 1px #A36597,-1px 0 1px #A36597}
+.userscontrol-message-green a.userscontrol-message-close,p.userscontrol-actions a.userscontrol-message-close{position:absolute;top:0;right:0;padding:10px 15px 10px 21px;font-size:13px;line-height:1.23076923;text-decoration:none}
+.userscontrol-message-green a.userscontrol-message-close:before,p.userscontrol-actions a.userscontrol-message-close:before{position:absolute;top:8px;left:0;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+
+/*message top header*/
+
+div.userscontrol-message-blue{overflow:hidden;position:relative;
+      background-color:#FFFFFF; 
+    border-left-color: #9EC8F0!important;
+ padding: 5px 2px 5px 5px; width: 98%;
+margin: 10px auto 10px auto
+
+}
+
+.userscontrol-message-blue table{ border: 0
+
+}
+
+.userscontrol-message-blue table td{ 
+    vertical-align:top;
+    border: none; 
+    font-size: 15px
+
+}
+div.userscontrol-message-blue h2{ font-size: 22px; margin: 5px 0px 5px 0px}
+
+div.userscontrol-message-blue p{max-width:700px}
+
+.userscontrol-message-blue a.button-primary,p.userscontrol-actions a.button-primary{background:#E55237;border-color:#E55237;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #E55237;box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #E55237;color:#fff;text-shadow:0 -1px 1px #E55237,1px 0 1px #A36597,0 1px 1px #A36597,-1px 0 1px #A36597}
+.userscontrol-message-blue a.userscontrol-message-close,p.userscontrol-actions a.userscontrol-message-close{position:absolute;top:0;right:0;padding:10px 15px 10px 21px;font-size:13px;line-height:1.23076923;text-decoration:none}
+.userscontrol-message-blue a.userscontrol-message-close:before,p.userscontrol-actions a.userscontrol-message-close:before{position:absolute;top:8px;left:0;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+
+
+/*message*/
+
+div.userscontrol-message{overflow:hidden;position:relative;border-left-color: #E55237!important}
+div.userscontrol-message p{max-width:700px}
+
+.userscontrol-message a.button-primary,p.userscontrol-actions a.button-primary{background:#E55237;border-color:#E55237;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #E55237;box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #E55237;color:#fff;text-shadow:0 -1px 1px #E55237,1px 0 1px #A36597,0 1px 1px #A36597,-1px 0 1px #A36597}
+
+.userscontrol-message a.userscontrol-message-close,p.userscontrol-actions a.userscontrol-message-close{position:absolute;top:0;right:0;padding:10px 15px 10px 21px;font-size:13px;line-height:1.23076923;text-decoration:none}
+.userscontrol-message a.userscontrol-message-close:before,p.userscontrol-actions a.userscontrol-message-close:before{position:absolute;top:8px;left:0;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+
+
+
+.userscontrol-welcome-panel-message {
+    float: none;
+	position:relative;
+    text-align: center;
+    
+    width: 100%;
+	
+	
+}
+
+.userscontrol-welcome-panel .welcome-panel-column-pro {
+    float: none;
+	position:relative;
+    
+    width: 30%;
+	display:inline-block;
+	vertical-align:top;
+	margin:10px 0px 5px 5px;
+	border:solid 1px #F7F7F7;
+	padding:10px;
+	min-height:310px
+	
+}
+
+.userscontrol-welcome-panel .welcome-panel-column-pro img {
+	
+	max-width:100%;
+   	
+}
+
+.userscontrol-welcome-panel .welcome-panel-column-pro p {
+	font-size:14px;	
+   	
+}
+
+.userscontrol-welcome-panel .welcome-panel-column-pro h4 {
+	
+	margin-top:1.2em;
+	
+	
+   	
+}
+
+.userscontrol-top-main-bar .userscontrol-top-main-plugin-name {
+    position: absolute;
+    top: 25px;
+    height: 50px;
+}
+
+.userscontrol-top-main-bar .userscontrol-top-main-plugin-name a{
+    color: #9b9b9b;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.userscontrol-top-main-bar .litever{
+    font-size: 10px;
+    color: #929292;
+    padding: 0px 0px 0px 5px;
+}
+
+.userscontrol-top-main-bar .prover{
+    font-size: 10px;
+    color: #929292;
+    padding: 0px 0px 0px 5px;
+}
+
+
+.userscontrol-top-main-bar .userscontrol-top-main-texts ul{
+
+    text-align: right;
+    padding: 2px 5px 0px 0px;
+    margin: 0px;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+
+.userscontrol-top-main-bar .userscontrol-top-main-texts ul li{
+    display: inline-block;
+    margin: 0px 2px 0px 0px;
+    text-align: center;
+    
+    border: solid 1px whitesmoke;
+    padding: 5px;
+    border-radius: 0.2rem;
+    background: #f2fced6e;
+    width: 70px;
+	    
+}
+
+.userscontrol-top-main-bar .userscontrol-top-main-texts ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #6b6b6b;
+    display: block;	    
+}
+
+.userscontrol-top-main-bar .userscontrol-top-main-texts ul li a p{
+
+    font-size: 11px;
+    height: auto;
+    padding: 0px;
+    margin: 5px 0px 5px 0px;
+
+}
+
+
+
+.userscontrol-top-main-bar .userscontrol-top-main-texts ul li.pro{
+   
+    background-color: #14B1EF ;
+        
+ }
+
+ .userscontrol-top-main-bar .userscontrol-top-main-texts ul li.pro p{
+   
+   color: #fff;
+        
+ }
+
+ i.pro{
+   
+    color: #fff;
+         
+  }
+
+
+/**/
+
+.userscontrol-welcome-panel .welcome-panel-column-welcomepro {
+    float: none;
+    min-width: 200px;
+    width: 24%;
+	display:inline-block;
+	vertical-align:top;
+	margin:10px 0px 5px 5px;
+	border:solid 1px #F7F7F7;
+	padding:10px;
+	min-height:200px
+	
+}
+
+.userscontrol-welcome-panel .welcome-panel-column-welcomepro img {
+	
+	max-width:100%;
+   	
+}
+
+.userscontrol-welcome-panel .welcome-panel-column-welcomepro p {
+	font-size:14px;	
+   	
+}
+
+.userscontrol-welcome-panel .welcome-panel-column-welcomepro h4 {
+	
+	margin-top:1.2em;
+	
+	
+   	
+}
+
+/**/
+
+.userscontrol-welcome-panel .welcome-panel-column-quickdoc {
+    float: none;
+    min-width: 200px;
+    width: 24%;
+	display:inline-block;
+	vertical-align:top;
+	margin:10px 0px 5px 5px;
+	border:solid 1px #F7F7F7;
+	padding:10px;
+	min-height:200px
+	
+}
+
+.userscontrol-welcome-panel .welcome-panel-column-quickdoc img {
+	
+	max-width:100%;
+   	
+}
+
+.userscontrol-welcome-panel .welcome-panel-column-quickdoc p {
+	font-size:14px;	
+   	
+}
+
+.userscontrol-welcome-panel .welcome-panel-column-quickdoc h4 {
+	
+	margin-top:1.2em;
+	
+	
+   	
+}
+
+
+/*end*/
+
+.userscontrol-btn-quick-actions-btn{ 
+ border: none;
+ background: #bdbdbd     none repeat scroll 0 0;
+ color: #FFF;
+ font-size:14px;
+ line-height:20px;
+ padding:5px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;
+ 
+
+}
+
+.userscontrol-btn-quick-actions-btn i{
+	margin-right:5px;
+	font-size:18px
+	
+}
+.userscontrol-btn-quick-actions-btn:hover{ 
+	background: #333   none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #FFF   ;
+    text-shadow: none;
+}
+.userscontrol-btn-quick-actions-btn{ transition: all 0.1s ease-out 0s;}
+
+.userscontrol-btn-quick-actions-btn.close{ 
+
+ background: #e0e0e0;
+ color:#2D2C2CCC;
+}
+
+
+
+a.userscontrol-appointment-edit-module i {
+    font-size: 18px;
+	color:#333
+   
+}
+
+a.userscontrol-appointment-delete-module i {
+    font-size: 18px;
+	color:#333
+   
+}
+
+a.userscontrol-membership-delete-module i {
+    font-size: 18px;
+	color:#333
+   
+}
+
+
+
+.userscontrol-subscriptiondetail-header-details  ul.order_details {
+    margin: 2em 1em 2em 0em;
+    list-style: none;
+}
+
+.userscontrol-subscriptiondetail-header-details  ul.order_details li {
+    margin-right: 1em;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    line-height: 1;
+    border-right: 1px dashed #d3ced2;
+    padding-right: 2em;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    display:inline-block;
+   
+    vertical-align: top;
+}
+
+.userscontrol-subscriptiondetail-header-details  ul.order_details li.usercontrolwoopaymentmethod {
+	border-right:none;
+    
+
+}
+
+.userscontrol-subscriptiondetail-header-details ul.order_details li strong {
+    display: block;
+    font-size: 1.4em;
+    text-transform: none;
+    line-height: 1.5;
+}
+
+/*End*/
+
+
+
+.userscontrol-protect-group-options { padding:5px}
+.userscontrol-protect-group-options li{ list-style:none}
+
+
+span.userscontrol-main-close-open-tab{ position:absolute; right:5px; top:10px}
+span.userscontrol-main-close-open-tab a{ font-size:18px; color:#474747}
+span.userscontrol-main-close-open-tab i{ font-size:18px}
+
+
+.userscontrol-sect { padding:2px 5px 2px 5px; margin-top:10px; position:relative; background:#FFF}
+.userscontrol-sect .userscontrol-header { margin:5px; padding-top:5px; padding-left:5px; border-bottom: solid 1px #F8F8F8}
+.userscontrol-sect .userscontrol-header h3{ font-size:20px}
+
+
+.userscontrol-welcome-panel {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 14px 0;
+    overflow: hidden;
+    padding: 15px 10px 5px;
+    position: relative !important;
+}
+
+.userscontrol-welcome-panel h3 {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+	padding:15px 0px 15px 0px;
+}
+.userscontrol-welcome-panel h4 {
+    font-size: 16px;
+    margin: 1.33em 0 0;
+}
+
+.userscontrol-welcome-panel h4 a  {
+    font-size: 1.4rem;
+    margin: 1.33em 0 0;
+    text-decoration: none;
+}
+.userscontrol-welcome-panel li {
+    font-size: 14px;
+}
+
+
+.userscontrol-welcome-panel-content {
+    margin-left: 13px;
+    max-width: 1500px;
+}
+
+
+.userscontrol-welcome-panel h2{ text-align:left; font-size:18px; padding:10px 0px 10px 0px; position:relative; margin:0px
+	
+
+}
+
+.userscontrol-welcome-panel h2 i{  font-size:20px; margin-right:2px;	
+
+}
+
+
+
+span.userscontrol-widget-backend-colspan{ position:absolute; right:5px; top:10px}
+span.userscontrol-widget-backend-colspan a{ font-size:20px; color:#a2a2a2}
+span.userscontrol-widget-backend-colspan i{ font-size:20px}
+
+.userscontrol-main-sales-summary { text-align:center }
+
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-1{ display:inline-block; overflow:hidden; position:relative; width:55%; vertical-align:top }
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-2{ display:inline-block; width:22%; vertical-align:top }
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-3{ display:inline-block ; width:22%; vertical-align:top}
+
+
+
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-2 ul{ padding:5px; background:#FBFBFB; margin:10px 0px 10px 0px }
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-2 ul li{
+		display: inline-block;
+		height: 102px;
+		margin: 0px 0px 0px 5px;
+		background: #FFFFFF;
+		border: solid 1px #F8F8F8;
+		vertical-align: top;
+		width: 45%;
+		padding: 5px 0 5px 0px; }
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-2 ul li a{ display:block; width:100%; height:100%; text-decoration:none }
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-2 ul li p{ 
+    font-size:1.6rem; 
+    margin:0px; 
+    font-weight:400; 
+    text-align:center 
+}
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-2 ul li small{ font-size:11px; color:#999 }
+
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-3 ul{ padding:5px; background:#FBFBFB; margin:10px 0px 10px 0px }
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-3 ul li{ 
+	display: inline-block;
+	height:45px;
+	margin: 0px 0px 0px 5px;
+	background: #FFFFFF;
+	border: solid 1px #F8F8F8;
+	vertical-align: top;
+	width: 45%;
+	padding: 0px 0px 10px 0px;}
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-3 ul li a{ display:block; width:100%; height:100%; text-decoration:none }
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-3 ul li p{ font-size:20px; margin:0px; line-height:18px;font-weight:20; text-align:center }
+.userscontrol-main-sales-summary .userscontrol-main-dashcol-3 ul li small{ font-size:11px; color:#999 }
+
+
+
+
+span.userscontrol-delete-ticket-conver{ position:absolute; right:5px; top:10px}
+span.userscontrol-delete-ticket-conver a{ font-size:14px; color: #999}
+
+
+
+span.usercontrollogoadmin{ position:absolute; right:5px; top:10px}
+
+
+
+.userscontrol-messaging-hidden{ display:none}
+
+
+
+#bup-loading-animation-business-hours{ display:none; }
+
+.userscontrol-admin-contain .avatar {
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+
+
+/**/
+
+.userscontrol-ticket-header-quickoptions {
+	position:relative; text-align:right;
+	background:none;
+	height:45px;
+	margin:5px 0px 10px 0px;
+	
+}
+
+.userscontrol-ticket-header-quickoptions ul{
+	position:relative;
+	text-align:right;
+	padding:5px;
+		
+}
+
+.userscontrol-ticket-header-quickoptions li{
+	position:relative;
+	display:inline-block;
+	width:auto;
+	padding:5px;
+}
+
+.userscontrol-ticket-header-quickoptions li i{
+	margin-right:5px;
+	
+}
+
+
+
+
+.userscontrol-appointments-getting-started {
+
+}
+
+.userscontrol-common-block {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 5px 0;
+    overflow: auto;
+  
+    position: relative;
+	height:auto;	
+	
+   
+	width:99%;
+}
+
+.userscontrol-top-options-book{
+	
+	width:200px;
+	background: none;
+	position:absolute;
+		
+	right:10px;
+	top:15px;
+	text-align:right
+}
+
+.userscontrol-top-options-book a.userscontrol-btn-top1-book{ 
+
+		
+
+	
+		height:auto !important;
+
+		width:auto;
+
+		padding:15px 10px 10px 10px;
+
+		text-align:left;
+
+		font-size:12px;
+		vertical-align:top;		
+
+		 background: #E0E0E0;
+
+		-moz-border-radius: 5px; 
+	     border-radius:5px;
+
+		 color: #333 ;
+		 text-decoration:none;
+		
+
+
+
+}
+
+.userscontrol-top-options-book a.userscontrol-btn-top1-book span{ 
+
+		
+
+}
+
+.userscontrol-top-options-book a.userscontrol-btn-top1-book span i{
+	margin-right:5px; 
+
+		
+
+}
+
+
+.userscontrol-front-cont { 
+
+	padding:10px; 
+	margin:0 auto 0 auto; 
+	position:relative;
+	background: #fbfbfb; 
+	width:100%; 
+	max-width:800px; 
+	border:1px solid #ececec
+}
+
+.userscontrol-help { font-size:14px; color:#999; text-align:left; padding:5px 0px 5px 0px}
+
+
+
+.userscontrol-front-cont .bup_errors{ 
+
+
+}
+
+.userscontrol-front-cont .bup_errors p.bup_error{
+	
+	color: #FF0004;
+
+
+}
+.userscontrol-front-cont label{ 
+
+	display:inline-block;
+	margin-bottom:5px;
+	color:#666
+
+	
+}
+
+.userscontrol-ticket-reply-auto-cont{ 
+	position:relative;
+	padding:10px 0px 10px 0px;
+	
+
+}
+
+.userscontrol-button-start{ 
+
+
+ background: #1C8DFF none repeat scroll 0 0;
+ border:none;
+ color: #FFF;
+ font-size:16px;
+ line-height:20px;
+ padding:0 12px;
+ height:50px;
+ width:280px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	;
+ margin:5px 0px 15px 0px
+
+}
+
+.userscontrol-button-start:hover{ 
+
+	background: #333   none repeat scroll 0 0;
+	border:none;
+   
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+
+
+
+
+.userscontrol-welcome-panel .userscontrol-button-upgrade:hover{ 
+
+	background: #333   none repeat scroll 0 0;
+	border:none;
+   
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+
+.userscontrol-welcome-panel .userscontrol-button-upgrade{position:absolute; top:220px; right:30px;}
+
+
+.userscontrol-welcome-panel h1{ 
+    font-size:29px; 
+    color:#999; 
+    position:relative;
+    width: 100%;
+}
+
+.userscontrol-plugins-gopro{
+
+    color:#C40000 ;
+    font-weight: bold;
+}
+
+.userscontrol-button {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #f6f7f7;
+    border: 1px solid #2271b1;
+      border-top-color: rgb(34, 113, 177);
+      border-right-color: rgb(34, 113, 177);
+      border-bottom-color: rgb(34, 113, 177);
+      border-left-color: rgb(34, 113, 177);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #2271b1;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    min-width: 90px;
+    outline: 0;
+    overflow: hidden;
+    padding: 7px 14px 9px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    vertical-align: top;
+  }
+
+.userscontrol-button.is-primary {
+    background: #3582c4;
+    border-color: #3582c4;
+    color: #fff;
+}
+
+
+.userscontrol-card {
+    background: #fff;
+    box-shadow: 0 0 0 1px #c3c4c7,0 1px 1px 1px rgba(0,0,0,.04);
+    box-sizing: border-box;
+    clear: both;
+    display: block;
+    margin: 1rem 1.25rem 0 auto;
+    padding: 1rem;
+    position: relative;
+  }
+
+.userscontrol-banner.userscontrol-card{
+
+    border-left: 4px solid #4ab866;
+  border-left-color: rgb(74, 184, 102);
+display: flex;
+padding: .75rem .375rem .75rem .75rem;
+position: relative;
+z-index: 2;
+
+}
+
+.userscontrol-banner__content {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.userscontrol-banner__info{
+
+    flex-grow: 1;
+    line-height: 1.4;
+
+}
+
+.userscontrol-banner.userscontrol-card.is-upgrade-premium {
+    border-left-color: #4ab866;
+  }
+
+.userscontrol-banner__buttons_container {
+    display: grid;
+    height: 50%;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .userscontrol-banner__info .userscontrol-banner__description {
+    font-size: .75rem;
+    line-height: 1.5;
+    margin-top: .375rem;
+  }
+
+  .userscontrol-banner__info .userscontrol-banner__title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+.userscontrol-welcome-panel .userscontrol-button-upgrade-pro{ transition: all 0.1s ease-out 0s;}
+
+.userscontrol-activatecopywarning a{
+
+    color: #D8000C !important;
+    font-size: 11px !important;
+
+}
+h3.userscontrol-extended{ font-size:40px;}
+h3.userscontrol-welcome{ font-size:28px;}
+p.userscontrol-extended-p{ font-size:16px;}
+
+
+.userscontrol-ultra-info, .userscontrol-ultra-success, .userscontrol-ultra-warning, .userscontrol-ultra-error, .isa_error {
+
+    border:none;
+
+    margin: 10px 0px 15px 5px;
+
+    padding:15px 10px 15px 50px;
+
+    background-repeat: no-repeat;
+
+    background-position: 10px center;
+
+	-moz-border-radius:.5em;
+
+-webkit-border-radius:.5em;
+
+border-radius:.5em;
+
+}
+
+
+
+.userscontrol-ultra-warning {
+
+    color: #9F6000;
+
+    background-color: #FEEFB3;
+
+
+}
+
+.userscontrol-ultra-error {
+
+    color: #D8000C;
+
+    background-color: #FFBABA;
+
+
+}
+
+.userscontrol-ultra-wait {
+    color: #333;
+    background-color:none;
+	text-align:center
+   
+}
+.userscontrol-ultra-info {
+    color: #777;
+    background-color: #e9f5fbf0;
+   
+}
+.userscontrol-ultra-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+   
+}
+
+.userscontrol-ultra-success i{
+	font-size:18px;
+	margin:0px 5px 0px 0px
+   
+}
+
+.userscontrol-ultra-info i{
+	font-size:18px;
+	margin:0px 5px 0px 0px
+   
+}
+.userscontrol-ultra-warning {
+    color: #666;
+    background-color: #ffcc002b;
+   
+}
+
+.userscontrol-ultra-warning i{
+	font-size:18px;
+	margin:0px 5px 0px 0px
+   
+}
+
+.userscontrol-ultra-error {
+    color: #D8000C;
+    background-color: #FFBABA;
+   
+}
+
+.userscontrol_post_access_logged_in{
+    position: relative;
+}
+
+.userscontrol_post_access_logged_in{
+    position: relative;
+}
+
+.userscontrol_post_access_logged_in ul{
+    position: relative;
+    width: 100%;
+}
+
+.userscontrol_post_access_logged_in ul li{
+    list-style: none;
+   
+}
+
+
+.userscontrol_post_access_byrole{
+    position: relative;
+}
+
+.userscontrol_post_access_byrole{
+    position: relative;
+}
+
+.userscontrol_post_access_byrole ul{
+    position: relative;
+    width: 100%;
+}
+
+.userscontrol_post_access_byrole ul li{
+    list-style: none;
+   
+}
+
+.userscontrolembers-protect-group-options{
+    position: relative;
+}
+
+.userscontrolembers-protect-group-options{
+    position: relative;
+}
+
+.userscontrolembers-protect-group-options ul{
+    position: relative;
+    width: 100%;
+}
+
+.userscontrolembers-protect-group-options ul li{
+    list-style: none;
+   
+}
+
+.userscontrol-button-upgrade{ 
+
+
+ background: #5D5656 none repeat scroll 0 0;
+ border:none;
+ color: #FFF;
+ font-size:16px;
+ line-height:20px;
+ padding:0 12px;
+ height:50px;
+ width:190px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.userscontrol-button-upgrade:hover{ 
+
+	background: #333   none repeat scroll 0 0;
+	border:none;
+   
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+
+
+/************************************************************************************
+
+FIELD CUSTOMIZER
+
+*************************************************************************************/
+
+.userscontrol-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 190px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+	background-color:rgba(240,240,240,0.7);
+	-moz-border-radius:.5em;
+	-webkit-border-radius:.5em;
+	border-radius:.5em;
+	font-size:14px;
+	padding-top:30px;
+}
+
+.userscontrol-notification{ display:none}
+.userscontrol-profile-fields-row {
+    border: 1px solid #efefef;
+   /* border-radius: 0.5em;*/
+    clear: both;
+    height: auto !important;
+    margin: 10px 0;
+    min-height: 60px;
+    padding: 0;
+    position: relative;
+    width: 600px;
+}
+.userscontrol-profile-fields-row .heading_title {
+    border-bottom: 1px solid #efefef;
+    clear: both;
+    height: 30px;
+    margin: 0;
+    padding-top: 15px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.userscontrol-profile-fields-row .options-bar {
+    clear: both;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 170px;
+}
+.userscontrol-profile-fields-row .options-bar p {
+    margin: 8px 5px 0;
+}
+.userscontrol-profile-fields-row .heading_title h3 {
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+.userscontrol-profile-fields-row .heading_title.separator {
+    background: #eee none repeat scroll 0 0;
+}
+.userscontrol-profile-fields-row.profile-field {
+    margin-left: 30px;
+    width: 450px;
+}
+.userscontrol-profile-fields-row .userscontrol-fields-edition {
+    display: none;
+    margin: 10px auto;
+    width: 85%;
+}
+#uu-fields-sortable .ui-selected {
+    background: red none repeat scroll 0 0;
+    color: white;
+    font-weight: bold;
+}
+#uu-fields-sortable {
+    cursor: move;
+}
+
+
+.userscontrol-welcome-panel th {
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  background: #f5f5f5;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.userscontrol-welcome-panel table {
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 25px;
+  background:transparent;
+}
+
+.userscontrol-welcome-panel th, .userscontrol-welcome-panel td {
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.userscontrol-welcome-panel td {
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  text-align:left;
+}
+
+.userscontrol-welcome-panel .userscontrol-main-app-list {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 14px 0;
+    overflow: auto;
+    padding: 15px 10px 5px;
+    position: relative;
+	overflow:hidden
+}
+
+.userscontrol-welcome-panel .userscontrol-main-blocksec {    
+    margin: 14px 0;
+    overflow: auto;
+    padding: 15px 10px 5px;
+    position: relative;
+}
+
+.userscontrol-welcome-panel .userscontrol-main-blocksec .userscontrol-main-2-col-1 {
+	display:inline-block;
+	width:60%;
+	vertical-align:top;  
+   
+}
+
+.userscontrol-welcome-panel .userscontrol-main-blocksec .userscontrol-main-2-col-2 { 
+	
+	display:inline-block;
+	width:38%;   
+	vertical-align:top;
+	padding-left:10px
+	
+   
+}
+
+.userscontrol-main-blocksec .userscontrol-main-2-col-2 .userscontrol-income{ }
+
+.userscontrol-main-blocksec .userscontrol-main-2-col-2 .userscontrol-income ul{ padding:5px; background:#FBFBFB; margin:10px 0px 10px 0px }
+.userscontrol-main-blocksec .userscontrol-main-2-col-2 .userscontrol-income ul li{ 
+		display:inline-block; 
+		height:90px; margin: 0px 0px 0px 5px; 
+		background:#FFFFFF; border: solid 1px #F8F8F8;
+		vertical-align:top;
+		width:30%; 
+		text-align:center }
+.userscontrol-main-blocksec .userscontrol-main-2-col-2 .userscontrol-income ul li a{ display:block; width:100%; height:100%; text-decoration:none }
+.userscontrol-main-blocksec .userscontrol-main-2-col-2 .userscontrol-income ul li p{ font-size:20px; margin:0px; line-height:40px; text-align:center }
+.userscontrol-main-blocksec .userscontrol-main-2-col-2 .userscontrol-income ul li small{ font-size:11px; color:#999 }
+
+
+
+.userscontrol-membership-edit-form {
+	position:relative;		
+}
+
+.userscontrol-membership-edit-form p{ 
+
+	font-size:12px;
+	
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------- *
+
+ *  Responsive Style
+
+/* ------------------------------------------------------------------------- */
+
+/************************************************************************************
+
+MEDIA QUERIES
+
+*************************************************************************************/
+
+
+
+/* Large screens */
+
+@media only screen and (min-width : 1680px) {
+
+
+
+}
+
+
+
+/* Tablet Landscape */
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+
+
+}
+
+
+
+
+
+
+
+/* for 980px or less */
+
+@media screen and (max-width: 1000px) {
+	
+
+}
+
+
+/* Smaller than 960px */
+
+/*@media only screen and (max-width: 959px) {
+
+}*/
+
+
+
+/* MAX 800px */
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+	.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options ul li .userscontrol-user-menu-text{ display:none}
+	.bp_table_row_hide{ display:none}	
+	.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options ul li i{ font-size:25px}
+	
+	#userscontrol-stats-on-hold{ display:none}
+	#userscontrol-stats-shared{ display:none}	
+	.userscontrol-main-ticket-summary ul li { width:23%}
+	.userscontrol-main-ticket-summary ul li.usercontrolclientd{width:30%  }
+	
+	
+	/* tickets list*/
+	#userscontrol-ticket-col-staff { display:none}
+	#userscontrol-ticket-col-department { display:none}
+	
+	
+}
+
+
+
+/* for 750px or less */
+
+@media only screen and (max-width: 750px) {
+	
+
+}
+
+@media only screen and (max-width: 620px) {
+	
+	
+	.userscontrol-main-ticket-summary ul li { width:22%}
+	#userscontrol-ticket-col-lastupdate { display:none}
+	
+	
+
+
+}
+
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
+
+@media only screen and (max-width: 580px) {
+	
+
+
+}
+
+
+@media only screen and (max-width: 460px) {
+	
+	
+	.userscontrol-staff-profile-name { display:none}
+	#userscontrol-ticket-col-status { display:none}
+	#userscontrol-ticket-col-site { display:none}
+	
+
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	
+
+
+
+}
+
+
+
+/* MAX 1440px */
+
+
+
+@media only screen and (max-width: 1440px){
+
+
+
+
+}
+
+
+
+
+
+/* MAX 1024px */
+
+
+
+@media only screen and (max-width: 1024px){
+
+
+
+}
+
+
+/* MAX 360px */
+
+
+
+@media only screen and (max-width: 320px){
+
+
+		
+
+}
+

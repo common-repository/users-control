@@ -1,0 +1,850 @@
+/* USER ACCOUNT*/
+.userscontrol-user-dahsboard-cont { 
+	position:relative; 
+	max-width:1600px; 
+	width:100%;
+	text-align:left;
+	margin-top:20px
+
+}
+
+.userscontrol-user-dahsboard-cont a{ text-decoration:none; box-shadow:none; -webkit-box-shadow:none; 
+
+}
+
+
+.userscontrol-user-dahsboard-cont h2{ 
+	font-size:18px; 
+	position:relative; 
+	margin: 10px 0px 10px 0px;
+
+}
+
+span.userscontrol-widget-backend-colspan{ position:absolute; right:5px; top:10px}
+span.userscontrol-widget-backend-colspan a{ font-size:24px; color:#474747}
+span.userscontrol-widget-backend-colspan i{ font-size:24px}
+
+
+
+/*Order Details*/
+
+.userscontrol-subscriptiondetail-header-details { padding:5px; position:relative; border:1px solid #DBDBDB; background:#fcfcfc }
+
+
+.userscontrol-subscriptiondetail-header-details  ul.order_details {
+    margin: 2em 1em 2em 0em;
+    list-style: none;
+}
+
+.userscontrol-subscriptiondetail-header-details  ul.order_details li {
+    margin-right: 1em;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    line-height: 1;
+    border-right: 1px dashed #d3ced2;
+    padding-right: 2em;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    display:inline-block;
+   
+    vertical-align: top;
+}
+
+.userscontrol-subscriptiondetail-header-details  ul.order_details li.userscontrolwoopaymentmethod {
+	border-right:none;
+    
+
+}
+
+.userscontrol-subscriptiondetail-header-details ul.order_details li strong {
+    display: block;
+    font-size: 1.4em;
+    text-transform: none;
+    line-height: 1.5;
+}
+
+/*End*/
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header{
+	position: relative;
+    width: 100%;
+    min-height: 110px;
+    background: #fff;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    border-bottom: solid 1px #e6e6e6;
+}
+
+
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options{
+	width:100%; 
+	min-height:100px;
+	background: #fff ;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options ul { 
+	text-align: right;   
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options ul li{
+	list-style:none;
+	display:inline-block;
+	font-size:12px;
+	margin-right:0px;
+	text-align: center;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options ul li a{
+	text-decoration:none;	
+	color: #7d7d7d;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options ul li i{
+	font-size: 20px;
+    color: #929292;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options ul li .userscontrol-user-menu-text{
+	font-size:12px;	
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options ul li .userscontrol-user-menu-ico{
+	font-size:12px;	
+	width: 100%;
+	display: inline-block;	
+}
+
+
+
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-nav ul{
+	
+	text-align:right;
+	
+	
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-nav ul li{
+	list-style:none;
+	display:inline-block;
+	font-size:11px;	
+	
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-nav ul li a{
+	display: block
+	
+}
+
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-staff-profile-top{ 
+position:absolute; 
+left:5px; 
+top:-20px; 
+width:200px;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-staff-profile-name{ 
+position:absolute; 
+left:125px; 
+top:2px; 
+width:200px;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-staff-profile-name h1{	
+	font-size:26px;
+	margin:0px;
+	padding: 5px;
+
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-staff-profile-name small{	
+	font-size:11px; font-style:italic; padding:0px; margin:0px
+	
+
+}
+
+.userscontrol-top-options-book{
+	
+	width:200px;
+	background: none;
+	position:absolute;
+	bottom:10px;	
+	right:10px;
+	text-align:right
+}
+
+.userscontrol-centered-cont{
+	position: relative;
+	margin: 15px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
+	
+}
+
+.userscontrol-centered-cont h1{
+	font-size: 1.6rem;
+	
+}
+
+
+.userscontrol-top-options-book a.userscontrol-btn-top1-book{ 
+
+		
+
+		min-height:40px;
+		height:auto !important;
+
+		width:auto;
+
+		padding:10px;
+
+		text-align:left;
+
+		font-size:12px;
+		vertical-align:top;		
+
+		 background: #FFF ; 
+
+		-moz-border-radius: 5px; 
+	     border-radius:5px;
+
+		 color: #FFF;
+		 text-decoration:none;
+		 display:inline-block;
+
+
+
+}
+
+.userscontrol-top-options-book a.userscontrol-btn-top1-book span{ 
+
+		
+
+}
+
+.userscontrol-top-options-book a.userscontrol-btn-top1-book span i{
+	margin-right:5px; 
+
+		
+
+}
+
+
+.userscontrol-user-dahsboard-cont th {
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  background: #f5f5f5;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.userscontrol-user-dahsboard-cont th, .userscontrol-user-dahsboard-cont td {
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+}
+
+.userscontrol-user-dahsboard-cont td {
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+   font-size:12px;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-main-app-list {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 14px 0;
+    overflow: hidden;
+    padding: 15px 10px 5px;
+    position: relative;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-common-cont {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 14px 0;
+   /* overflow: auto;*/
+    padding: 15px 10px 5px;
+    position: relative;
+}
+
+.userscontrol-seperator{
+	font-size: 1.6rem;
+    border-bottom: 1px #d9d9d9;
+    border-bottom-style: solid;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.userscontrol-field{
+	margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+}
+
+
+
+.userscontrol-user-dahsboard-cont .userscontrol-main-app-list table td i{ font-size:18px;}
+
+/*AVATAR UPLOAD*/
+.userscontrol-user-avatar-default-style{border-radius:50%}
+
+.userscontrol-user-dahsboard-cont .userscontrol-staff-right-avatar{ width:98%;padding:2px; position:relative;  min-height:400px ; margin:10px auto 10px auto; text-align:center }
+
+
+.userscontrol-user-dahsboard-cont .drag-drop .drag-drop-inside{ margin:0px auto 0px auto;  position:relative }
+.userscontrol-user-dahsboard-cont .drag-drop-inside p.drag-drop-info{ font-size:20px}
+.userscontrol-user-dahsboard-cont .drag-drop-inside p{ color:#a0a5aa; text-align:center}
+
+.userscontrol-user-dahsboard-cont .userscontrol-staff-right-avatar h3{ font-size:18px }
+
+.userscontrol-user-dahsboard-cont .userscontrol-staff-right-avatar .pr_tipb_be{ clear:both; float:none; width:99%; max-height:700px; min-height:99px; margin-top:10px; margin-bottom:10px; padding-bottom:15px;  border:solid 1px #E9E9E9; display:inline-block }
+
+.userscontrol-user-dahsboard-cont  .userscontrol-staff-right-avatar .pr_tipb_be p{ padding:10px 0px 10px 0px; margin-top:10px;  text-align:center }
+
+.userscontrol-user-dahsboard-cont  .userscontrol-dialog-user-bg-cropper{margin:0px auto 0px auto }
+
+
+.userscontrol-user-dahsboard-cont .avatar {
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+
+
+.userscontrol-avatar-drag-drop-sector {
+
+	position:relative;
+
+padding:20px 5px 20px 5px;
+margin:5px auto 5px auto;
+height: auto !important;
+min-height:150px;
+
+
+}
+
+span.userscontrol-add-client-m{ position:absolute; right:5px; top:5px}
+span.userscontrol-add-client-m a{ font-size:18px; color:#474747}
+span.userscontrol-add-client-m i{ font-size:18px}
+
+/**/
+.userscontrol-button-change-avatar{ 
+
+ border: none;
+ background:none;
+ text-align:left;
+ padding-left:30px;
+
+}
+
+.userscontrol-button-change-avatar i{
+	font-size:20px 
+
+
+}
+
+
+/**/
+
+.userscontrol-button-delete-avatar{ 
+
+ border: none;
+ background: #F00 repeat scroll 0 0;
+ color: #FFF;
+ font-size:12px;
+ line-height:30px;
+ width:140px;
+ padding:0 3px;
+ height:30px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.userscontrol-button-delete-avatar:hover{ 
+
+	background: #C40000 none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.userscontrol-button-delete-avatar{ transition: all 0.1s ease-out 0s;}
+
+.userscontrol-button-upload-avatar{ 
+
+ border: none;
+ background: #ddd none repeat scroll 0 0;
+ color:#000;
+ font-size:12px;
+ line-height:30px;
+ width:140px;
+ padding:0 3px;
+ height:30px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;
+ position:relative;
+ margin:0 auto 0 auto;
+ 
+
+}
+
+.userscontrol-button-upload-avatar:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #000;
+    text-shadow: none;
+}
+
+.userscontrol-button-upload-avatar{ transition: all 0.1s ease-out 0s;}
+
+
+
+/*Packages Front*/
+.userscontrol-packages-front-list .userscontrol-package-list-front{}
+.userscontrol-packages-front-list .userscontrol-package-list-front .uultra-account-type{ text-align:right; padding-right:5px;}
+.userscontrol-packages-front-list .userscontrol-package-list-front .uultra-account-type p{ text-align:right !important}
+.userscontrol-packages-front-list .userscontrol-package-list-front .uultra-account-type span{ font-weight:bold}
+
+.userscontrol-packages-front-list  ul{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+
+ }
+.userscontrol-packages-front-list  ul li{ 
+	clear: both;
+    list-style: none;
+    width: auto;
+    margin: 10px auto 10px auto;
+    padding: 15px 5px 5px 15px;
+    min-height: 60px;
+    height: auto;
+    border: solid 1px #EBEBEB;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+ 
+
+
+}
+
+
+.userscontrol-packages-front-list .userscontrol-package-list-front .uultra-package-opt{ 
+	height:60px; margin:5px 0 5px 0px; text-align:left;}
+.userscontrol-packages-front-list .userscontrol-package-list-front  span.uultra-package-title{ 
+	font-size:18px; width:100%; float:none}
+.userscontrol-packages-front-list .userscontrol-package-list-front  span.uultra-package-cost{ 
+	width: 35%;
+	float: right;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+
+.userscontrol-packages-front-list .uultra-package-desc{ 
+
+float:none; clear:both;height:auto;
+
+ min-height:50px; 
+ margin:5px 0 5px 0px; 
+
+ padding:10px;
+
+
+}
+
+
+
+.userscontrol-packages-front-list .uultra-package-desc p{
+	 text-align:left;
+	 font-size:14px;}
+	 
+	 
+
+
+
+/*END Upgrade Packages*/
+
+
+
+
+.userscontrol-user-dahsboard-cont .userscontrol-profile-separator{ clear:both; position:relative;
+
+	border-bottom: 1px solid #DBDBDB;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding:0 0 10px 0;
+	color: #333;
+	text-align:left;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-cc-frm-left{ display:inline-block; width:200px; text-align:left;vertical-align:top; padding-left:20px}
+.userscontrol-user-dahsboard-cont .userscontrol-cc-frm-right{ display:inline-block; width:auto; vertical-align:top}
+
+
+.userscontrol-user-dahsboard-cont .userscontrol-profile-field-cc{ position:relative; height:auto; margin:10px 0px 0px 0px; width:99%; text-align:left}
+.userscontrol-user-dahsboard-cont .userscontrol-profile-field{ clear:both; position:relative; height:auto; margin:10px 0px 0px 0px; padding:10px 0px 5px 10px; display:inline-block; width:100%}
+.userscontrol-user-dahsboard-cont .userscontrol-profile-field li{ list-style:none  }
+
+.userscontrol-user-dahsboard-cont .userscontrol-profile-field-half{ width:50%}
+.userscontrol-user-dahsboard-cont .userscontrol-profile-field span{ font-size:14px; color:#666}
+.userscontrol-user-dahsboard-cont .userscontrol-field-type{ 
+	display:inline-block; 
+	width:99%; 
+	text-align:left; 
+	vertical-align:top;
+	font-size: 1.1rem;
+}
+
+.userscontrol-user-dahsboard-cont .userscontrol-field-type img{ position:relative !important}
+.userscontrol-user-dahsboard-cont .userscontrol-field-type label{ display:inline}
+
+
+/*for custom fields*/
+.userscontrol-user-dahsboard-cont .userscontrol-custom-fields{ position:relative; margin:10px 0px 0px 0px }
+
+/*.userscontrol-front-cont .userscontrol-field-value{ display:inline-block; width:99%; vertical-align:top; text-align:left; margin:5px 0px 5px 0px}*/
+
+
+.userscontrol-user-dahsboard-cont .userscontrol-field-value ul{ position:relative; margin:0px; padding:0px; text-align:left }
+.userscontrol-user-dahsboard-cont .userscontrol-field-value ul li{ list-style:none; margin:10px 0px 0px 0px }
+
+.userscontrol-user-dahsboard-cont .userscontrol-field-type i {
+	display:inline-block;
+
+	
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	margin: 0 14px 0 0;	
+	text-align: center;
+	position: relative;
+	top: auto;
+}
+
+
+/*Packages Backend*/
+.userscontrol-packages-backend-list .userscontrol-package-list-front{ text-align:left}
+.userscontrol-packages-backend-list .userscontrol-package-list-front .uultra-account-type{ text-align:right; padding-right:5px;}
+.userscontrol-packages-backend-list .userscontrol-package-list-front .uultra-account-type p{ text-align:right !important}
+.userscontrol-packages-backend-list .userscontrol-package-list-front .uultra-account-type span{ font-weight:bold}
+
+.userscontrol-packages-backend-list .userscontrol-package-list-front label{ display: inline}
+
+.userscontrol-packages-backend-list  ul{ text-align:center; }
+.userscontrol-packages-backend-list  ul li{ 
+ list-style:none; position:relative; display:inline-block; width:45%; margin:10px 5px 10px 5px;
+ padding:15px 5px 5px 15px; min-height:60px; height:auto; border:solid 1px #EBEBEB
+ 
+
+
+}
+
+
+.userscontrol-packages-backend-list .userscontrol-package-list-front .uultra-package-opt{ height:60px; margin:5px 0 5px 0px; text-align:left;}
+.userscontrol-packages-backend-list .userscontrol-package-list-front  span.uultra-package-title{ font-size:18px; width:100%; float:none}
+.userscontrol-packages-backend-list .userscontrol-package-list-front  span.uultra-package-cost{  width:45%; position:absolute; right:5px; top:5px; text-align:right; padding-right:10px;}
+
+.userscontrol-packages-front-list .uultra-package-desc{ 
+
+float:none; clear:both;height:auto;
+
+ min-height:50px; 
+ margin:5px 0 5px 0px; 
+
+ padding:10px;
+
+
+}
+
+.userscontrol-publisher-top-bar{
+	position: relative;
+	margin: 10px 0px 0px 0px;
+	padding: 10px ;
+	text-align: right;
+
+}
+
+
+
+.userscontrol-packages-backend-list .uultra-package-desc p{
+	 text-align:left;
+	 font-size:14px;}
+	 
+	 
+
+
+.userscontrol-ultra-info, .userscontrol-ultra-success, .userscontrol-ultra-warning, .userscontrol-ultra-error, .isa_error {
+
+    border:none;
+
+    margin: 10px 0px 15px 5px;
+
+    padding:15px 10px 15px 50px;
+
+    background-repeat: no-repeat;
+
+    background-position: 10px center;
+
+	-moz-border-radius:.5em;
+
+-webkit-border-radius:.5em;
+
+border-radius:.5em;
+
+}
+
+
+
+.userscontrol-ultra-wait {
+    color: #333;
+    background-color:none;
+	text-align:center
+   
+}
+.userscontrol-ultra-info {
+    color: #777;
+    background-color: #e9f5fbf0;
+   
+}
+.userscontrol-ultra-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+   
+}
+
+.userscontrol-ultra-success i{
+	font-size:18px;
+	margin:0px 5px 0px 0px
+   
+}
+
+.userscontrol-ultra-info i{
+	font-size:18px;
+	margin:0px 5px 0px 0px
+   
+}
+.userscontrol-ultra-warning {
+    color: #666;
+    background-color: #ffcc002b;
+   
+}
+
+.userscontrol-ultra-warning i{
+	font-size:18px;
+	margin:0px 5px 0px 0px
+   
+}
+
+.userscontrol-ultra-error {
+    color: #D8000C;
+    background-color: #FFBABA;
+   
+}
+
+
+
+
+/*END User backend Upgrade Packages*/
+
+
+
+/**/
+
+/* ------------------------------------------------------------------------- *
+
+ *  Responsive Style
+
+/* ------------------------------------------------------------------------- */
+
+/************************************************************************************
+
+MEDIA QUERIES
+
+*************************************************************************************/
+
+
+
+/* Large screens */
+
+@media only screen and (min-width : 1680px) {
+
+
+
+}
+
+
+
+/* Tablet Landscape */
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+
+
+}
+
+
+
+
+
+
+
+/* for 980px or less */
+
+@media screen and (max-width: 1000px) {
+	
+
+}
+
+
+/* Smaller than 960px */
+
+/*@media only screen and (max-width: 959px) {
+
+}*/
+
+
+
+/* MAX 800px */
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+
+	.bp_table_row_hide{ display:none}	
+	.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options ul li i{ 
+		font-size:22px
+	}
+	
+	#userscontrol-stats-on-hold{ display:none}
+	#userscontrol-stats-shared{ display:none}	
+	.userscontrol-main-ticket-summary ul li { width:23%}
+	.userscontrol-main-ticket-summary ul li.userscontrolclientd{width:30%  }
+	
+	
+	/* tickets list*/
+	#userscontrol-ticket-col-staff { display:none}
+	#userscontrol-ticket-col-department { display:none}
+	
+	
+}
+
+
+
+/* for 750px or less */
+@media only screen and (max-width: 750px) {
+
+	.userscontrol-user-dahsboard-cont .userscontrol-top-header .userscontrol-top-options ul li .userscontrol-user-menu-text{
+		display:none
+    }
+	
+	
+
+}
+
+@media only screen and (max-width: 620px) {
+	
+	
+	.userscontrol-main-ticket-summary ul li { width:22%}
+	#userscontrol-ticket-col-lastupdate { display:none}
+
+	
+	
+
+
+}
+
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
+
+@media only screen and (max-width: 580px) {
+	
+
+
+}
+
+
+@media only screen and (max-width: 460px) {
+	
+	
+	.userscontrol-staff-profile-name { display:none}
+	#userscontrol-ticket-col-status { display:none}
+	#userscontrol-ticket-col-site { display:none}
+	
+
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	
+
+
+
+}
+
+
+
+/* MAX 1440px */
+
+
+
+@media only screen and (max-width: 1440px){
+
+
+
+
+}
+
+
+
+
+
+/* MAX 1024px */
+
+
+
+@media only screen and (max-width: 1024px){
+
+
+
+}
+
+
+/* MAX 360px */
+
+
+
+@media only screen and (max-width: 320px){
+
+
+		
+
+}
+

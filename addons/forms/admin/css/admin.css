@@ -1,0 +1,24 @@
+/*Admin - Main*/
+
+
+#loading-animation{display:none}
+#userscontrol-sync-results{display:none}
+
+#userscontrol-validation-results{display:none}
+.userscontrol-ultra-sect h3{ margin-left:0px}
+.userscontrol-ultra-sect h3{ font-size:20px;}
+
+.userscontrol-ultra-btn-red{ background: #F00 !important;  color:#FFF !important}
+
+/*users module*/
+.userscontrol-users-membership-edition {  margin:10px 0px 10px 0px; padding-left:15px;}
+
+/**/
+
+
+.userscontrol-top-noti-admin {  margin:10px 0px 10px 0px}
+
+.userscontrol-frame-impo{ background:#F2F2F2}
+
+.userscontrol-ultra-rounded {-moz-border-radius: 5px; border-radius:5px;}
+.userscontrol-ultra-sect { background:#FFF; position:relative; clear:both; width:98%; margin-top:20px; padding:20px 10px 10px 10px; height:auto !important}
